@@ -1,0 +1,23 @@
+/* pages/a5/a5.wxss */
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 5rpx;
+  width: 100%;
+}
+.get{
+background-color:black;
+border:1px solid black;
+}
+.sub_title {
+  margin-top: 1rpx;
+}
+
+.result {
+  margin-top: 5rpx;
+}
+
+.push_btn {
+  margin-top: 6rpx;
+}

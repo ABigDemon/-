@@ -1,0 +1,5 @@
+<!-- <view bindtap="jump1">点我进入</view> -->
+<button bindtap="jump2" class="jump22">简单</button>
+<button bindtap="jump1" class="jump11">困难</button>
+<button bindtap="jump3" class="jump33">噩梦</button>
+

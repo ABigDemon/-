@@ -1,0 +1,9 @@
+<view class='container'>
+  <text class='title'>一秒钟有多长?</text>
+  <text class='sub_title'>你能精确地按出几秒钟吗?</text>
+  <input bindinput="get" placeholder="请输入你想挑战的时长"/>
+  <text class='result'>{{result}}</text>
+  <view class='push_btn' id='push_btn' catchtouchstart='push_start' catchtouchend='push_end'>
+    <icon type='circle' size='45' color='orange'/>
+  </view>
+</view>
